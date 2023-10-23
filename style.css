@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-rows: .9fr 1.5fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.item{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+}
+.item:hover{
+background-color: rgb(201, 233, 199);
+}
+.answer{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.input{
+    display: flex;
+    justify-content: left;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    border-top: 2px rgb(201, 233, 199)solid;
+    border-bottom: 2px rgb(201, 233, 199) solid;
+}
+.answer:hover, .input:hover{
+    background-color: white;
+}
+.r-border{
+    border-right: 2px rgb(201, 233, 199) solid;
+}
