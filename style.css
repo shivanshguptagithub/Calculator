@@ -4,7 +4,7 @@
 }
 .container{
     display: grid;
-    height: 100vh;
+    height: 95vh;
     width: 100vw;
     grid-template-rows: .9fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
